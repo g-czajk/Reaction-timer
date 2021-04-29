@@ -1,0 +1,30 @@
+.result {
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.result p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #7ac74f;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result .score {
+    font-size: 20px;
+}
+
+.result .rank {
+    font-size: 24px;
+}
+
+.result .best {
+    margin-top: 20px;
+}
+
+.result span {
+    color: #444;
+}

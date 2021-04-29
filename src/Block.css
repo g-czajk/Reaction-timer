@@ -1,0 +1,19 @@
+.block-wrapper {
+    align-self: center;
+    justify-self: center;
+}
+
+.block {
+    grid-row: 3;
+    width: 200px;
+    border-radius: 20px;
+    background: #7ac74f;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-family: "arial";
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

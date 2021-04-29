@@ -1,0 +1,62 @@
+.dots {
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    font-size: 50px;
+}
+
+.dots span:nth-of-type(1) {
+    animation: dots-first 1s both, dots-second 1s 2s linear infinite;
+}
+
+.dots span:nth-of-type(2) {
+    animation: dots-first 1s 0.5s both, dots-second 1s 2s linear infinite;
+}
+
+.dots span:nth-of-type(3) {
+    animation: dots-first 1s 1s both, dots-second 1s 2s linear infinite;
+}
+
+@keyframes dots-first {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    34% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    67% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dots-second {
+    0% {
+        opacity: 0;
+    }
+
+    49.99% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
